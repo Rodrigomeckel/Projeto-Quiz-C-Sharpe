@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6D833C5E-3150-4C7C-884C-2CEC89B7B67E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication15</RootNamespace>
+    <AssemblyName>WindowsFormsApplication15</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>1461DD572047DB5D11AF03E2129B9D26ACC780F9</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>WindowsFormsApplication15_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="escreva-seu-nome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="escreva-seu-nome.Designer.cs">
+      <DependentUpon>escreva-seu-nome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QUIZBASQUETE1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZBASQUETE1.Designer.cs">
+      <DependentUpon>QUIZBASQUETE1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZBASQUETE10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZBASQUETE10.Designer.cs">
+      <DependentUpon>QUIZBASQUETE10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZBASQUETE11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZBASQUETE11.Designer.cs">
+      <DependentUpon>QUIZBASQUETE11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZBASQUETE2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZBASQUETE2.Designer.cs">
+      <DependentUpon>QUIZBASQUETE2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZBASQUETE3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZBASQUETE3.Designer.cs">
+      <DependentUpon>QUIZBASQUETE3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZBASQUETE4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZBASQUETE4.Designer.cs">
+      <DependentUpon>QUIZBASQUETE4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZBASQUETE5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZBASQUETE5.Designer.cs">
+      <DependentUpon>QUIZBASQUETE5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZBASQUETE6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZBASQUETE6.Designer.cs">
+      <DependentUpon>QUIZBASQUETE6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZBASQUETE7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZBASQUETE7.Designer.cs">
+      <DependentUpon>QUIZBASQUETE7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZBASQUETE8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZBASQUETE8.Designer.cs">
+      <DependentUpon>QUIZBASQUETE8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZBASQUETE9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZBASQUETE9.Designer.cs">
+      <DependentUpon>QUIZBASQUETE9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZFINAL2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZFINAL2.Designer.cs">
+      <DependentUpon>QUIZFINAL2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZFINAL3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZFINAL3.Designer.cs">
+      <DependentUpon>QUIZFINAL3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZFUTEBOL1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZFUTEBOL1.Designer.cs">
+      <DependentUpon>QUIZFUTEBOL1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZFUTEBOL10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZFUTEBOL10.Designer.cs">
+      <DependentUpon>QUIZFUTEBOL10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZFUTEBOL3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZFUTEBOL3.Designer.cs">
+      <DependentUpon>QUIZFUTEBOL3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZFUTEBOL4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZFUTEBOL4.Designer.cs">
+      <DependentUpon>QUIZFUTEBOL4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZFUTEBOL5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZFUTEBOL5.Designer.cs">
+      <DependentUpon>QUIZFUTEBOL5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZFUTEBOL6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZFUTEBOL6.Designer.cs">
+      <DependentUpon>QUIZFUTEBOL6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZFUTEBOL7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZFUTEBOL7.Designer.cs">
+      <DependentUpon>QUIZFUTEBOL7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZFUTEBOL8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZFUTEBOL8.Designer.cs">
+      <DependentUpon>QUIZFUTEBOL8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZFUTEBOL9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZFUTEBOL9.Designer.cs">
+      <DependentUpon>QUIZFUTEBOL9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZFINAL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZFINAL.Designer.cs">
+      <DependentUpon>QUIZFINAL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZFUTEBOL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZFUTEBOL.Designer.cs">
+      <DependentUpon>QUIZFUTEBOL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZFUTEBOLFINAL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZFUTEBOLFINAL.Designer.cs">
+      <DependentUpon>QUIZFUTEBOLFINAL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZGEOGRAFiA10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZGEOGRAFiA10.Designer.cs">
+      <DependentUpon>QUIZGEOGRAFiA10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZGEOGRAFIA1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZGEOGRAFIA1.Designer.cs">
+      <DependentUpon>QUIZGEOGRAFIA1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZGEOGRAFIA11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZGEOGRAFIA11.Designer.cs">
+      <DependentUpon>QUIZGEOGRAFIA11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZGEOGRAFIA12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZGEOGRAFIA12.Designer.cs">
+      <DependentUpon>QUIZGEOGRAFIA12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZGEOGRAFIA2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZGEOGRAFIA2.Designer.cs">
+      <DependentUpon>QUIZGEOGRAFIA2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZGEOGRAFIA3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZGEOGRAFIA3.Designer.cs">
+      <DependentUpon>QUIZGEOGRAFIA3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZGEOGRAFIA5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZGEOGRAFIA5.Designer.cs">
+      <DependentUpon>QUIZGEOGRAFIA5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZGEOGRAFIA6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZGEOGRAFIA6.Designer.cs">
+      <DependentUpon>QUIZGEOGRAFIA6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZGEOGRAFIA7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZGEOGRAFIA7.Designer.cs">
+      <DependentUpon>QUIZGEOGRAFIA7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZGEOGRAFIA8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZGEOGRAFIA8.Designer.cs">
+      <DependentUpon>QUIZGEOGRAFIA8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZGEOGRAFIA9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZGEOGRAFIA9.Designer.cs">
+      <DependentUpon>QUIZGEOGRAFIA9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VariaveisGlobais.cs" />
+    <EmbeddedResource Include="escreva-seu-nome.resx">
+      <DependentUpon>escreva-seu-nome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="QUIZBASQUETE1.resx">
+      <DependentUpon>QUIZBASQUETE1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZBASQUETE10.resx">
+      <DependentUpon>QUIZBASQUETE10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZBASQUETE11.resx">
+      <DependentUpon>QUIZBASQUETE11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZBASQUETE2.resx">
+      <DependentUpon>QUIZBASQUETE2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZBASQUETE3.resx">
+      <DependentUpon>QUIZBASQUETE3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZBASQUETE4.resx">
+      <DependentUpon>QUIZBASQUETE4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZBASQUETE5.resx">
+      <DependentUpon>QUIZBASQUETE5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZBASQUETE6.resx">
+      <DependentUpon>QUIZBASQUETE6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZBASQUETE7.resx">
+      <DependentUpon>QUIZBASQUETE7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZBASQUETE8.resx">
+      <DependentUpon>QUIZBASQUETE8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZBASQUETE9.resx">
+      <DependentUpon>QUIZBASQUETE9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZFINAL2.resx">
+      <DependentUpon>QUIZFINAL2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZFINAL3.resx">
+      <DependentUpon>QUIZFINAL3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZFUTEBOL1.resx">
+      <DependentUpon>QUIZFUTEBOL1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZFUTEBOL10.resx">
+      <DependentUpon>QUIZFUTEBOL10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZFUTEBOL3.resx">
+      <DependentUpon>QUIZFUTEBOL3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZFUTEBOL4.resx">
+      <DependentUpon>QUIZFUTEBOL4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZFUTEBOL5.resx">
+      <DependentUpon>QUIZFUTEBOL5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZFUTEBOL6.resx">
+      <DependentUpon>QUIZFUTEBOL6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZFUTEBOL7.resx">
+      <DependentUpon>QUIZFUTEBOL7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZFUTEBOL8.resx">
+      <DependentUpon>QUIZFUTEBOL8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZFUTEBOL9.resx">
+      <DependentUpon>QUIZFUTEBOL9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZFINAL.resx">
+      <DependentUpon>QUIZFINAL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZFUTEBOL.resx">
+      <DependentUpon>QUIZFUTEBOL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZFUTEBOLFINAL.resx">
+      <DependentUpon>QUIZFUTEBOLFINAL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZGEOGRAFiA10.resx">
+      <DependentUpon>QUIZGEOGRAFiA10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZGEOGRAFIA1.resx">
+      <DependentUpon>QUIZGEOGRAFIA1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZGEOGRAFIA11.resx">
+      <DependentUpon>QUIZGEOGRAFIA11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZGEOGRAFIA12.resx">
+      <DependentUpon>QUIZGEOGRAFIA12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZGEOGRAFIA2.resx">
+      <DependentUpon>QUIZGEOGRAFIA2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZGEOGRAFIA3.resx">
+      <DependentUpon>QUIZGEOGRAFIA3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZGEOGRAFIA5.resx">
+      <DependentUpon>QUIZGEOGRAFIA5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZGEOGRAFIA6.resx">
+      <DependentUpon>QUIZGEOGRAFIA6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZGEOGRAFIA7.resx">
+      <DependentUpon>QUIZGEOGRAFIA7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZGEOGRAFIA8.resx">
+      <DependentUpon>QUIZGEOGRAFIA8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZGEOGRAFIA9.resx">
+      <DependentUpon>QUIZGEOGRAFIA9.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="WindowsFormsApplication15_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
